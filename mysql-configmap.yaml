@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+data:
+  MYSQL_DATABASE: hellodb
+  MYSQL_USER: springuser
+  MYSQL_PASSWORD: "demo-app-password"
+  MYSQL_ROOT_PASSWORD: "demo-root-password"
